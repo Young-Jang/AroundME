@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    강남구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    강동구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    강북구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    강서구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l4"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    관악구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    광진구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l6"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    구로구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    금천구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l8"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    노원구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l9"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    도봉구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l10"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    동대문구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l11"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    동작구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l12"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    마포구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l13"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    서대문구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l14"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    서초구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l15"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    성동구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l16"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    성북구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l17"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    송파구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l18"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    양천구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l19"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    영등포구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l20"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    용산구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l21"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    은평구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l22"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    종로구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l23"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    중구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@drawable/border_gray_bottom"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l24"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    중랑구"
+                android:textSize="15dp"
+                android:textColor="@color/colorBlack"
+                android:padding="20dp"
+                android:background="@color/colorWhite"
+                android:drawableLeft="@drawable/check_blue"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/l25"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

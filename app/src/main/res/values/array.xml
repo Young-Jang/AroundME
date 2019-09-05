@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="지역">
+        <item>강남</item>
+        <item>강북</item>
+        <item>남서울</item>
+        <item>도심</item>
+        <item>동남</item>
+        <item>동서울</item>
+        <item>서남</item>
+        <item>서서울</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_gray_bottom">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:background="@drawable/border_gray_bottom"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내정보"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:background="@color/colorWhite"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:src="@drawable/me"
+            android:background="@color/colorWhite"
+            android:onClick="OnProfileClick"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rohi404"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:paddingTop="10dp"
+            android:id="@+id/id"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rohi0404@hanmail.net"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:id="@+id/email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1996.04.04 / 여"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="13dp"
+            android:id="@+id/birth"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="등급등급등급"
+            android:gravity="center"
+            android:textColor="#008299"
+            android:textSize="13dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:textStyle="bold"
+            android:id="@+id/grade"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp"
+                android:background="@drawable/border"
+                android:drawableTop="@drawable/alert"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/announceButton"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가이드"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp"
+                android:background="@drawable/border"
+                android:drawableTop="@drawable/guide"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:id="@+id/guideButton"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="열매함"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp"
+                android:background="@drawable/border"
+                android:drawableTop="@drawable/mail"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:id="@+id/fruitBox"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="설정"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp"
+                android:background="@drawable/border"
+                android:drawableTop="@drawable/edit"
+                android:paddingRight="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:id="@+id/setting"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  나의 게시물"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorWhite"
+                android:textSize="16dp"
+                android:padding="20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    내가 쓴 게시물"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:background="@color/colorWhite"
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/pen"
+                android:id="@+id/myWriting"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    내가 쓴 댓글"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp"
+                android:gravity="center_vertical"
+                android:background="@color/colorWhite"
+                android:drawableLeft="@drawable/comment"
+                android:paddingLeft="20dp"
+                android:id="@+id/myComment"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_black_all"
+            android:text="로그아웃"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/logout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_gray_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:drawableTop="@drawable/homeselect"
+                android:paddingTop="7dp"
+                android:text="홈"
+                android:drawablePadding="3dp"
+                android:textColor="@color/colorSoso"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_gray_top"
+                android:drawableTop="@drawable/board"
+                android:paddingTop="7dp"
+                android:text="게시판"
+                android:textColor="@color/colorGray"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:drawableTop="@drawable/map"
+                android:paddingTop="7dp"
+                android:text="지도"
+                android:textColor="@color/colorGray"
+                android:drawablePadding="3dp"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_gray_top"
+                android:drawableTop="@drawable/alarm"
+                android:paddingTop="7dp"
+                android:text="알람"
+                android:textColor="@color/colorGray"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/grayback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C64B4B4B"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="280dp"
+        android:layout_marginRight="25dp"
+        app:srcCompat="@drawable/camera"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:fabCustomSize="60dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/fabtext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="300dp"
+        android:layout_marginRight="100dp"
+        android:text="사진촬영"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="210dp"
+        android:layout_marginRight="25dp"
+        app:srcCompat="@drawable/map"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:fabCustomSize="60dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/fabtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="230dp"
+        android:layout_marginRight="100dp"
+        android:text="제보하기"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="25dp"
+        app:srcCompat="@drawable/report"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:fabCustomSize="60dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/fabtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="100dp"
+        android:text="글쓰기"
+        android:textColor="@color/colorWhite"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="25dp"
+        app:fabCustomSize="60dp"
+        app:srcCompat="@drawable/pencil"
+        app:backgroundTint="@color/colorBlack"
+        tools:ignore="VectorDrawableCompat" />
+</FrameLayout>

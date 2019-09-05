@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_gray_bottom">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:background="@drawable/border_gray_bottom"
+                android:padding="8dp"
+                android:id="@+id/backButton"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제보하기"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:background="@color/colorWhite"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="9dp"
+                android:src="@drawable/check"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border_gray"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  제목"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:backgroundTint="@color/colorWhite"
+                android:layout_weight="1"
+                android:id="@+id/title"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="익명"
+                android:paddingRight="10dp"
+                android:textColor="#37896e"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_border_gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  지역을 선택해 주세요"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:backgroundTint="@color/colorWhite"
+                android:layout_weight="1"
+                android:id="@+id/mylocation"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gps"
+                android:background="@color/colorWhite"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:id="@+id/gps2"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="여기를 눌러서 글을 작성할 수 있습니다.
+주의 사항에 따라 글을 작성 해주시기 바랍니다.
+
+1. 자유게시판
+어떤 내용이든 자유롭게 소통할 수 있는 게시판
+2. 지역 홍보 게시판
+지역내 유용한 정보를 공유하고 홍보하는 게시판
+
+게시판에 적합하지 않은 글은 삭제 될 수 있습니다."
+            android:textSize="13dp"
+            android:textColor="@color/colorGray"
+            android:layout_margin="15dp"
+            android:background="@drawable/border_grayall"
+            android:padding="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@drawable/border_grayall"
+                android:layout_marginRight="10dp"
+                android:id="@+id/photo1"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@drawable/border_grayall"
+                android:layout_marginRight="10dp"
+                android:id="@+id/photo2"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@drawable/border_grayall"
+                android:layout_marginRight="10dp"
+                android:id="@+id/photo3"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:background="@drawable/border_grayall"
+                android:src="@drawable/add"
+                android:onClick="OnPopupClick"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_gray_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:drawableTop="@drawable/home"
+                android:paddingTop="7dp"
+                android:text="홈"
+                android:drawablePadding="3dp"
+                android:textColor="@color/colorGray"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_gray_top"
+                android:drawableTop="@drawable/boardselect"
+                android:paddingTop="7dp"
+                android:text="게시판"
+                android:textColor="@color/colorSoso"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:drawableTop="@drawable/map"
+                android:paddingTop="7dp"
+                android:text="지도"
+                android:textColor="@color/colorGray"
+                android:drawablePadding="3dp"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_gray_top"
+                android:drawableTop="@drawable/alarm"
+                android:paddingTop="7dp"
+                android:text="알람"
+                android:textColor="@color/colorGray"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

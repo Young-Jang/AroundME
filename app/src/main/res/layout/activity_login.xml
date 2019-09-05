@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:padding="20dp"
+            app:srcCompat="@drawable/sosologo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="계정(이메일) 입력"
+                android:textColorHint="@color/colorLittleGray"
+                android:background="@drawable/border_gray_bottom"
+                android:paddingBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/id"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호 입력"
+                android:textColorHint="@color/colorLittleGray"
+                android:background="@drawable/border_gray_bottom"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/password"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLittleGray"
+                android:text="로그인"
+                android:textSize="16dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:layout_margin="30dp"
+                android:id="@+id/btnLogin"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동 로그인"
+                android:textColor="@color/colorGray"
+                android:layout_gravity="right"
+                android:paddingRight="30dp"
+                android:textSize="14dp"
+                android:id="@+id/autoLogin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계정찾기"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:background="@drawable/border_gray_topright"
+                android:id="@+id/btnFind"
+                tools:ignore="InvalidId" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="회원가입"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:background="@drawable/border_gray_top"
+                android:id="@+id/btnJoin"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_gray_bottom">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_gray_bottom"
+                android:src="@drawable/back"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="개인 정보"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"
+                android:background="@color/colorWhite"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:paddingTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="계정"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updateid"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="비밀번호"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updatepassword"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="이름"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updatename"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="닉네임"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updatenickname"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="이메일"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updateemail"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="주소"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:padding="10dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/updateaddress"
+                        android:onClick="OnLocalPopupClick"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="전화번호"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_grayall"
+                        android:padding="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/updatephonefirst"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/updatephonemiddle"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:id="@+id/updatephonelast"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_grayall"
+                        android:hint="생년월일"
+                        android:padding="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/updateyear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/updatemonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/updateday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_gray_bottom"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="10dp"
+                        android:textColorHint="@color/colorLittleGray"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/updatemale"
+                        android:text="남자"
+                        android:textColor="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/updatefemale"
+                        android:text="여자"
+                        android:textColor="@color/colorLittleGray"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginRight="100dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"/>
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:text="변경"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/update"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
