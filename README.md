@@ -59,7 +59,7 @@ Usage
 
 * hot board
 
-<img src="https://user-images.githubusercontent.com/45625434/79192476-bc0c3480-7e63-11ea-9cc7-9b99b0c7779e.jpg)" width="30%">
+<img src="https://user-images.githubusercontent.com/45625434/79192476-bc0c3480-7e63-11ea-9cc7-9b99b0c7779e.jpg" width="30%">
 
 Contributiong
 --------------
