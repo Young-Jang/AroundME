@@ -18,12 +18,20 @@ Download <code>apk_file/AroundME.apk</code> on your android mobile phone
 
 And you can open project at android studio
 
-Screenshots
+Usage
 -----------
 
 * loading
 
 ![loading](https://user-images.githubusercontent.com/45625434/68873997-d66ea480-0743-11ea-8f26-0432d8a27200.jpg)
+
+* login
+
+![로그인](https://user-images.githubusercontent.com/45625434/79191164-f0322600-7e60-11ea-9458-388388a05ca9.jpg)
+
+* Sign up
+
+![회원가입](https://user-images.githubusercontent.com/45625434/79191168-f1fbe980-7e60-11ea-8958-a48a238ba732.jpg)
 
 * main
 
@@ -40,3 +48,11 @@ Screenshots
 * board
 
 ![board](https://user-images.githubusercontent.com/45625434/68873992-d5d60e00-0743-11ea-9231-c48523a7ff5e.jpg)
+
+* hot
+
+![hot](https://user-images.githubusercontent.com/45625434/79191160-ef00f900-7e60-11ea-88b6-f3bb9af39628.jpg)
+
+Contributiong
+--------------
+Please fork this project first and pick one of issues you can handle then shoot us your pull request.
