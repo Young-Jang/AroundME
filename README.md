@@ -67,4 +67,4 @@ Please fork this project first and pick one of issues you can handle then shoot 
 
 License
 --------------
-AroundME is MIT licensed, as found in the [LICENSE](https://github.com/Young-Jang/AroundME/License) file.
+AroundME is MIT licensed, as found in the [LICENSE](https://github.com/Young-Jang/AroundME/blob/master/License) file.
