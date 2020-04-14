@@ -61,6 +61,10 @@ Usage
 
 <img src="https://user-images.githubusercontent.com/45625434/79192476-bc0c3480-7e63-11ea-9cc7-9b99b0c7779e.jpg" width="30%">
 
-Contributiong
+Contributing
 --------------
 Please fork this project first and pick one of issues you can handle then shoot us your pull request.
+
+License
+--------------
+AroundME is MIT licensed, as found in the [LICENSE][LICENSE] file.
